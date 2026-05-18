@@ -5,3 +5,201 @@ Dbeaver all jdbc drivers
 
 >`DBeaver-All-Driver`, a `DBeaver JDBC Driver Package` , contains all jdbc drivers for dbeaver,no need to download it everytime ,all drivers in one package .
 
+# How to use Driver-All?
+
+### 使用方法一
+在新增连接的时候，手工编辑驱动，从driver库中添加已下载的驱动。
+
+### 使用方法二
+把`drivers`目录直接复制到`DbEaver`里面。
+
+# How to use Aliyun Maven Image
+go to Preference -> Driver -> Maven , delete or disable all other repositories , and just add aliyun maven iamge
+`https://maven.aliyun.com/repository/central`
+
+# Version
+Dbeaver : `24.0.0` above
+
+# JDBC Driver List
+- athena-jdbc-custom-credentials-provider-0.0.1-SNAPSHOT.jar
+- AthenaJDBC42-2.1.1.1000.jar
+- AthenaJDBC42_2.0.25.1001.jar
+- cache-jdbc-2.0.0.jar
+- CacheDB.jar
+- checker-qual-2.11.1.jar
+- clickhouse-jdbc-0.2.6.jar
+- commons-codec-1.11.jar
+- commons-logging-1.2.jar
+- error_prone_annotations-2.3.4.jar
+- failureaccess-1.0.1.jar
+- guava-29.0-jre.jar
+- httpclient-4.5.13.jar
+- httpcore-4.4.13.jar
+- httpmime-4.5.13.jar
+- j2objc-annotations-1.3.jar
+- jackson-annotations-2.9.10.jar
+- jackson-core-2.9.10.jar
+- jackson-databind-2.9.10.8.jar
+- javax.activation-api-1.2.0.jar
+- jsr305-3.0.2.jar
+- listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+- lz4-1.3.0.jar
+- slf4j-api-1.7.30.jar
+- csvjdbc-1.0.37.jar
+- dans-dbf-lib-1.0.0-beta-10.jar
+- db2jcc4.jar
+- jcc-11.5.9.0.jar
+- jt400.jar
+- derby-10.15.1.3.jar
+- derbyclient-10.15.1.3.jar
+- derbyshared-10.15.1.3.jar
+- derbytools-10.15.1.3.jar
+- edb-jdbc-42.3.2.1.jar
+- x-pack-sql-jdbc-8.12.1.jar
+- exasol-jdbc-6.1.0.jar
+- exasol-jdbc-7.1.16.jar
+- asm-9.2.jar
+- asm-analysis-9.2.jar
+- asm-commons-9.2.jar
+- asm-tree-9.2.jar
+- asm-util-9.2.jar
+- auto-value-annotations-1.9.jar
+- checker-compat-qual-2.5.5.jar
+- checker-qual-3.12.0.jar
+- cloud-sql-connector-jdbc-sqlserver-1.4.4.jar
+- com.dbeaver.net.auth.google-1.0.jar
+- error_prone_annotations-2.11.0.jar
+- failureaccess-1.0.1.jar
+- google-api-client-1.33.2.jar
+- google-api-services-sqladmin-v1beta4-rev20220215-1.32.1.jar
+- google-auth-library-credentials-1.5.3.jar
+- google-auth-library-oauth2-http-1.5.3.jar
+- google-http-client-1.41.4.jar
+- google-http-client-apache-v2-1.41.4.jar
+- google-http-client-gson-1.41.4.jar
+- google-oauth-client-1.33.0.jar
+- google-oauth-client-1.35.0.jar
+- grpc-context-1.44.1.jar
+- httpclient-4.5.13.jar
+- httpcore-4.4.15.jar
+- j2objc-annotations-1.3.jar
+- jdbc-socket-factory-core-1.4.4.jar
+- jffi-1.3.9.jar
+- jnr-a64asm-1.0.0.jar
+- jnr-constants-0.10.3.jar
+- jnr-enxio-0.32.13.jar
+- jnr-ffi-2.2.11.jar
+- jnr-posix-3.1.15.jar
+- jnr-unixsocket-0.38.17.jar
+- jnr-x86asm-1.0.2.jar
+- jsr305-3.0.2.jar
+- listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+- mysql-socket-factory-connector-j-8-1.4.4.jar
+- opencensus-api-0.31.0.jar
+- opencensus-contrib-http-util-0.31.0.jar
+- postgres-socket-factory-1.4.4.jar
+- h2-1.4.199.jar
+- h2-legacy.jar
+- h2-2.1.214.jar
+- ngdbc-2.10.19.jar
+- hive-jdbc-uber-2.6.5.0-292.jar
+- hsqldb-2.4.0.jar
+- hsqldb-2.7.1.jar
+- jdbc-4.50.4.1.jar
+- iijdbc.jar
+- antlr4-runtime-4.7.2.jar
+- connector-api-1.5.jar
+- jaybird-4.0.0.java8.jar
+- jaybird-5.0.2.java11.jar
+- jtds-1.3.1.jar
+- mariadb-java-client-2.7.1.jar
+- mariadb-java-client-3.3.2.jar
+- sapdbc-7.6.06.jar
+- mssql-jdbc-12.4.2.jre11.jar
+- mssql-jdbc-9.2.0.jre8.jar
+- mysql-connector-java-5.1.48.jar
+- mysql-connector-j-8.2.0.jar
+- mysql-connector-java-8.0.29.jar
+- protobuf-java-3.21.9.jar
+- protobuf-java-3.6.1.jar
+- nzjdbc3.jar
+- jdbc-odbc-bridge-jre7.jar
+- ojdbc11-23.2.0.0.jar
+- ojdbc8.jar
+- oraclepki.jar
+- orai18n-23.2.0.0.jar
+- orai18n.jar
+- osdt_cert-21.11.0.0.jar
+- osdt_cert.jar
+- osdt_core-21.11.0.0.jar
+- osdt_core.jar
+- ucp-23.2.0.0.jar
+- ucp.jar
+- xdb.jar
+- xdb6-18.3.0.0.jar
+- xmlparserv2-23.2.0.0.jar
+- xmlparserv2.jar
+- postgis-geometry-2.5.0.jar
+- postgis-jdbc-2.5.0.jar
+- postgis-jdbc-jtsparser-2.5.0.jar
+- postgresql-42.2.25.jar
+- postgresql-42.7.2.jar
+- rdmjdbc_15.2.5.jar
+- aws-java-sdk-core-1.12.23.jar
+- aws-java-sdk-core-1.12.577.jar
+- aws-java-sdk-redshift-1.12.23.jar
+- aws-java-sdk-redshift-1.12.577.jar
+- aws-java-sdk-redshift-arcadia-internal-1.0.jar
+- aws-java-sdk-redshift-internal-1.12.x.jar
+- aws-java-sdk-redshiftserverless-1.12.577.jar
+- aws-java-sdk-ssooidc-1.12.577.jar
+- aws-java-sdk-sts-1.12.23.jar
+- aws-java-sdk-sts-1.12.577.jar
+- commons-codec-1.15.jar
+- commons-logging-1.2.jar
+- fastdoubleparser-0.8.0.jar
+- httpclient-4.5.13.jar
+- httpclient-4.5.14.jar
+- httpcore-4.4.13.jar
+- httpcore-4.4.16.jar
+- jackson-annotations-2.12.3.jar
+- jackson-core-2.12.3.jar
+- jackson-databind-2.12.3.jar
+- jackson-dataformat-cbor-2.12.3.jar
+- joda-time-2.8.1.jar
+- jsoup-1.16.1.jar
+- redshift-jdbc42-2.1.0.22.jar
+- redshift-jdbc42-2.1.0.3.jar
+- sqlite-jdbc-3.36.0.3.jar
+- sqlite-jdbc-3.44.1.0.jar
+- jconn4.jar
+- terajdbc-17.10.00.26.jar
+- terajdbc-20.00.00.06.jar
+- byte-buddy-1.6.11.jar
+- byte-buddy-agent-1.6.11.jar
+- commons-lang-2.6.jar
+- commons-lang3-3.8.1.jar
+- commons-logging-1.1.3.jar
+- commons-logging-1.2.jar
+- hsqldb-2.3.1.jar
+- hsqldb-2.5.0.jar
+- jackcess-2.1.6.jar
+- jackcess-3.0.1.jar
+- mockito-core-2.7.22.jar
+- objenesis-2.5.jar
+- ucanaccess-4.0.2.jar
+- ucanaccess-5.0.1.jar
+- vertica-jdbc-12.0.1-0.jar
+- vertica-jdbc-23.3.0-0.jar
+
+
+# PowerShell to output all jar list in folder
+```bash
+#输出所有jar文件的文件名
+Get-ChildItem "D:\dbeaver-driver-all\drivers" -Include *.jar -Recurse -Force| ForEach-Object -Process{
+    if($_ -is [System.IO.FileInfo])
+    {
+        Write-Host "-" $_.Name
+    }
+}
+```
